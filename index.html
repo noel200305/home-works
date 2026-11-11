@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Noel Thomas | Academic Profile</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf5ff;
+    color: #172554;
+    line-height: 1.7;
+}
+
+.container {
+    width: min(1000px, 90%);
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    background: #0f172a;
+    color: white;
+    padding: 25px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    color: #bfdbfe;
+}
+
+/* INTRODUCTION */
+
+.intro {
+    background: white;
+    padding: 35px;
+    margin: 35px 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.05);
+}
+
+.intro h2 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+/* EDUCATION */
+
+.section-title {
+    font-size: 27px;
+    margin: 35px 0 20px;
+    color: #1e40af;
+}
+
+.education-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 22px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.05);
+}
+
+.education-card h3 {
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+
+/* SUBJECTS */
+
+.subject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.subject:last-child {
+    border-bottom: none;
+}
+
+.subject-info strong {
+    display: block;
+}
+
+.subject-info small {
+    color: #64748b;
+}
+
+.mark {
+    background: #dbeafe;
+    color: #1d4ed8;
+    padding: 7px 15px;
+    border-radius: 9px;
+    font-size: 19px;
+    font-weight: bold;
+    min-width: 48px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 45px;
+    background: #0f172a;
+    color: #bfdbfe;
+    text-align: center;
+    padding: 22px;
+    font-size: 14px;
+}
+
+/* MOBILE */
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    .intro {
+        padding: 22px;
+    }
+
+    .education-card {
+        padding: 18px;
+    }
+
+    .section-title {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h1>Noel Thomas</h1>
+        <p>RNU | Computer Systems | 6th Semester</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- ABOUT ME -->
+
+    <section class="intro">
+        <h2>My Academic Profile</h2>
+
+        <p>
+            I came to Latvia in February 2023.
+            I am currently studying at RNU and
+            continuing my 6th semester.
+            I have eight subjects in this semester.
+            This is my winter semester.
+        </p>
+    </section>
+
+    <!-- HIGHER SECONDARY -->
+
+    <h2 class="section-title">Education</h2>
+
+    <section class="education-card">
+
+        <h3>Higher Secondary Degree</h3>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Chemistry</strong>
+                <small>Could score higher</small>
+            </div>
+            <span class="mark">87</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Biology</strong>
+                <small>Better mark</small>
+            </div>
+            <span class="mark">93</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Physics</strong>
+                <small>Need to study more</small>
+            </div>
+            <span class="mark">90</span>
+        </div>
+
+    </section>
+
+    <!-- DEGREE -->
+
+    <h2 class="section-title">Degree – Computer Systems</h2>
+
+    <!-- FIRST YEAR -->
+
+    <section class="education-card">
+
+        <h3>1st Year</h3>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Robotics</strong>
+                <small>Better mark</small>
+            </div>
+            <span class="mark">7</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Database</strong>
+                <small>Good</small>
+            </div>
+            <span class="mark">8</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Java</strong>
+                <small>Need to study more</small>
+            </div>
+            <span class="mark">6</span>
+        </div>
+
+    </section>
+
+    <!-- SECOND YEAR -->
+
+    <section class="education-card">
+
+        <h3>2nd Year</h3>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Maths</strong>
+                <small>Better mark</small>
+            </div>
+            <span class="mark">7</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Economics</strong>
+                <small>Good</small>
+            </div>
+            <span class="mark">8</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>AI Technology</strong>
+                <small>Need to study more</small>
+            </div>
+            <span class="mark">6</span>
+        </div>
+
+    </section>
+
+    <!-- THIRD YEAR -->
+
+    <section class="education-card">
+
+        <h3>3rd Year</h3>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Philosophy</strong>
+                <small>Better mark</small>
+            </div>
+            <span class="mark">7</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Business Management: Labour Law</strong>
+                <small>Good</small>
+            </div>
+            <span class="mark">8</span>
+        </div>
+
+        <div class="subject">
+            <div class="subject-info">
+                <strong>Automata Computability and Complexity</strong>
+                <small>Need to study more</small>
+            </div>
+            <span class="mark">6</span>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Noel Thomas | Academic Portfolio</p>
+    <p>ODIN PROJECT</p>
+</footer>
+
+</body>
+</html>
